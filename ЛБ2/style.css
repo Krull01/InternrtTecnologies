@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1{
+    text-align: center;
+}
+body{
+   
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 100;
+
+}
+
+
+.contacts{
+    font-family:Impact, fantasy; 
+}
+
+
+    p {
+        font-size: 18px;
+        color: rgb(58, 52, 46);
+    }
+
+  
+  
+ 
+    .namesurn{
+        width: 200px;
+    }
+    .passw{
+        width: 100px;
+    }
+ 
+    
+                    
+
+                        .container{
+                            max-width: 1500px;
+                            margin: 0 auto;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                        }    
+                             
+.container {
+    
+    padding-top: 20px;
+    padding-bottom: 0px;
+  
+    text-align: justify;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+
+  }
+  
+  .registration__title{
+
+      margin-right: 15px;
+    }
+  
+    fieldset{
+        width: 500px;
+        margin: 20px auto 30px;
+    }
+    input{
+    width: calc(100% - 34px);
+    padding: 7px 15px;
+
+    }
+    button,
+    select,
+    input[type ="file"]{
+     
+        padding: 0;
+    }
+    input[type ="radio"],
+  input[type = "checkbox"]  {
+      width: auto;
+  }
+    textarea{
+        width: 97%;
+        resize: vertical;
+        min-height: 75px;
+        max-height: 50vh;
+       
+    }
+  
+    label,
+.label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+  .label-inline {
+    display: inline-block;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .container {
+    max-width: 992px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    padding: 7px 15px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .question-ssbox{
+      display: grid;
+  
+    margin-left: 20px;
+  }
+  .question-box > textarea {
+      margin: 0 7px;
+  }
+
+  input[type ="submit"]
+  {
+    margin: 30px;
+    justify-self: center
+}

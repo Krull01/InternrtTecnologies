@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+.passw{
+        width: 100px;
+    }
+
+   input:invalid {
+    background: #fdd; /* Красный цвет фона */
+   }
+   input:valid {
+    background: #dfd; /* Зеленый цвет фона */
+   }
+ 
+    </style>
+    
+</head>
+<body>
+  <main class="container">
+    <div>
+    <h1>Регистрация</h1>
+
+<form class="contacts__form" method="post">
+    <a id="step1"></a>
+    <fieldset class="container">
+        
+        <legend>#1 Базовые поля ввода</legend>
+        <label class="question-box">ФИО: <input style="width: 97%; padding: 7px 15px; margin: 7px;" required name="name"  minlength="3" maxlength="50" placeholder="Введите ФИО" type="name" class="namesurn" patern="^[a-zA-Z\s]+$"></label>
+
+        <label class="question-box">Эл.адрес: <input style="width: 97%; padding: 7px 15px; margin: 7px;" class="eml" required name="email" placeholder="Имейл" type="email" class="namesurn" ></label> 
+
+        <label class="question-box">Пароль: <input style="width: 97%; padding: 7px 15px; margin: 7px;" required name="passw" minlength="5" maxlength="20" placeholder="Пароль" type="password" class="passw"></label>
+
+        <label class="question-box">Сайт: <input  style="width: 97%; padding: 7px 15px; margin: 7px;" required name="link"  minlength="3" maxlength="100" placeholder="mysite.name" type="url" id="namesurn"></label>
+
+        <label class="question-box">Г.рождения: <input style="width: 97%; padding: 7px 15px; margin: 7px;" name="date" type="date"></label>
+      </fieldset>
+
+    
+      <a id="step2"></a>
+      <fieldset class="container">
+        <legend>#2 Многострочный текст</legend>
+        <label for="txt" >О себе в произвольной форме:</label>
+        <textarea   placeholder="Введите информацию о себе..." name="txt" id="txt" cols="20" rows="7" id="namesurn"></textarea>
+      </fieldset>
+
+      <a id="step3"></a>
+      <fieldset class="container">
+        <legend>#3 Кнопки управления формой</legend>
+        <div class="button-set">
+          <button   style="width: 97%; padding: 7px 15px; margin: 7px;" type="submit">Зарегистрироваться</button>
+          <button    style="width: 97%; padding: 7px 15px; margin: 7px;" type="reset">Очистить форму</button>
+         
+        </div>
+      </fieldset>
+
+</form>
+
+     <hr style="position: relative; height: 20px;">
+     <a href="#step1"> #1 Базовые поля ввода <br> </a>
+     <a href="#step2"> #2 Многострочный текст <br> </a>
+     <a href="#step3"> #3 Кнопки управления формой <br> </a>
+     <p style="float: right;">&copy; krull</p>
+    </div>
+    </main>
+</body>
+</html>
